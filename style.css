@@ -1,0 +1,111 @@
+html,body,h1,h2,h3,h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+h6 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+h5 {
+  text-transform:none !important;
+}
+
+p {
+  font-size: 15px;
+  margin: 10px 7px !important;
+}
+
+li {
+  font-size: 16px;
+}
+
+.current {
+  padding: 1px 4px;
+}
+
+h5 {
+  color: rgb(51, 51, 51);
+  display: block;
+  font-family: Ubuntu, sans-serif;
+  font-size: 17px !important;
+  font-weight: 600;
+  line-height: 17.6px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+.city {
+  color: rgb(51, 51, 51);
+  display: block;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 19px;
+  line-height: 19.4286px;
+  margin: 0px;
+  text-align: center !important;
+}
+
+.city_volunteer {
+  color: rgb(51, 51, 51);
+  display: block;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 19px;
+  line-height: 19.4286px;
+  margin: 0px;
+}
+
+.nav-tabs>li>a:active, .nav-tabs>li>a:hover {
+  color: #fff;
+  border-radius: 2px !important;
+  background-color: #009688!important;
+}
+
+.nav-tabs>li>a:visited {
+  color: #009688;
+  border-radius: 2px !important;
+  background-color: #fff!important;
+}
+
+
+.card {
+  padding-bottom: 20px;
+}
+
+.w3-container {
+  padding-bottom: 20px;
+}
+
+#div {
+  -vendor-animation-duration: 20s;
+  -vendor-animation-delay: 2s;
+}
+
+.skill-p {
+  margin-bottom: 1px !important;
+  margin-top: 5px !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.shan {
+    width: 120px;
+    height: 120px;
+    height: auto;
+    float: left;
+}
+
+.display-field {
+  display: inline-block;
+  padding-left: 50px;
+  text-indent: -50px;
+  vertical-align: top;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
