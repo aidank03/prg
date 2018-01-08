@@ -2,25 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href=".../w3.css">
     <link rel="stylesheet" href=".../style.css">
   </head>
 
   <body>
-
-
     <!-- Sidebar -->
     <nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
         <i class="fa fa-remove"></i>
     </a>
     <div class="w3-bar-block w3-center">
+        <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Home</a>
         <a href="about.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
-        <a href="pictures.html" class"w3-bar-item w3-button w3-text-grey w3-hover-black">Pictures</a>
-        <a href="resources.html" class"w3-bar-item w3-button w3-text-grey w3-hover-black">Resources</a>
+        <a href="pictures.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Pictures</a>
+        <a href="resources.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Resources</a>
         <a href="contact.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
     </div>
     </nav>
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-content" style="max-width:1500px">
+
+    <!-- Header -->
+    <div class="w3-opacity">
+        <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+        <div class="w3-clear"></div>
+    </div> 
 
   <div class="w3-container w3-card-2 w3-white w3-margin-bottom animated fadeIn">
   <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-desktop fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Resources</h2>
@@ -81,4 +92,17 @@
   </div>
 </div>
 </body>
+
+<script>
+// Open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
 </html>
